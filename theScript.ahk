@@ -7,7 +7,7 @@ isEdgeTabSwitch := false
 tabPressedCount := 0
 
 ; Only trigger when Alt + Tab is pressed inside Edge
-!Tab::
+Alt & Tab::
 ;if (WinActive("ahk_class Chrome_WidgetWin_1")) {
     if (!isEdgeTabSwitch) {
         isEdgeTabSwitch := true
